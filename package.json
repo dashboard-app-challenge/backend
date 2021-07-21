@@ -1,0 +1,38 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Backend implementation of dashboard app",
+  "main": "src/server.js",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "fs": "^0.0.1-security",
+    "http": "^0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.13.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-dev": "nodemon --inspect src/server.js",
+    "start": "node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dashboard-app-challenge/backend.git"
+  },
+  "keywords": [
+    "node.js",
+    "backend"
+  ],
+  "author": "Ashi-AA",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dashboard-app-challenge/backend/issues"
+  },
+  "homepage": "https://github.com/dashboard-app-challenge/backend#readme"
+}
