@@ -29,7 +29,7 @@ const userSchema = mongoose.Schema({
     maxlength: 60,
     unique: true,
   },
-  roles: [String],
+  tasks: [String],
   dateCreated: {
     type: Date,
     required: true,
